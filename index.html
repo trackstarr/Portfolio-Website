@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <div class="profile">
+            <img src="./assets/recentphoto.jpg" width="150" height="150" alt="Developer's Photo">
+            <div class="greetings">"Greetings, I am James Peltier, a seasoned developer with a track record of successful projects. Allow me to present my past work, and anticipate forthcoming endeavors."
+        </div>
+    </section>
+    <section id="work" class="content-section">
+        <h2>My Work</h2>
+        <div class="project-grid">
+            <a href="https://trackstarr.github.io/Module-1-Challenge-v2/">
+                <img src="./assets/Project 1 Screenshot.png" alt="Project 1" class="project-image">
+            </a>
+            <!-- More projects go here -->
+        </div>
+    </section>
+    <section id="contact" class="content-section">
+        <h2>Contact Me</h2>
+        <!-- Contact section content goes here -->
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
+
